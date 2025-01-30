@@ -1,0 +1,160 @@
+{
+  "categories": [
+    {
+      "name": "Weather",
+      "values": ["Sunny", "Cloudy", "Rainy"]
+    },
+    {
+      "name": "TimeOfDay",
+      "values": ["Morning", "Afternoon", "Evening"]
+    },
+    {
+      "name": "Temperature",
+      "values": ["Cold", "Mild", "Hot"]
+    },
+    {
+      "name": "ActivityLevel",
+      "values": ["Low", "Medium", "High"]
+    },
+    {
+      "name": "OutdoorPreference",
+      "values": ["Yes", "No"]
+    },
+    {
+      "name": "Mood",
+      "values": ["Happy", "Neutral", "Tired"]
+    }
+  ],
+  "outputs": ["Park", "Cafe", "Gym", "Relax"],
+  "training_data": [
+    {
+      "input": {
+        "Weather": "Sunny",
+        "TimeOfDay": "Morning",
+        "Temperature": "Mild",
+        "ActivityLevel": "Medium",
+        "OutdoorPreference": "Yes",
+        "Mood": "Happy"
+      },
+      "output": "Park"
+    },
+    {
+      "input": {
+        "Weather": "Rainy",
+        "TimeOfDay": "Afternoon",
+        "Temperature": "Cold",
+        "ActivityLevel": "Low",
+        "OutdoorPreference": "No",
+        "Mood": "Tired"
+      },
+      "output": "Cafe"
+    },
+    {
+      "input": {
+        "Weather": "Cloudy",
+        "TimeOfDay": "Evening",
+        "Temperature": "Mild",
+        "ActivityLevel": "Medium",
+        "OutdoorPreference": "Yes",
+        "Mood": "Neutral"
+      },
+      "output": "Gym"
+    },
+    {
+      "input": {
+        "Weather": "Sunny",
+        "TimeOfDay": "Afternoon",
+        "Temperature": "Hot",
+        "ActivityLevel": "High",
+        "OutdoorPreference": "Yes",
+        "Mood": "Happy"
+      },
+      "output": "Park"
+    },
+    {
+      "input": {
+        "Weather": "Rainy",
+        "TimeOfDay": "Morning",
+        "Temperature": "Cold",
+        "ActivityLevel": "Low",
+        "OutdoorPreference": "No",
+        "Mood": "Neutral"
+      },
+      "output": "Relax"
+    },
+    {
+      "input": {
+        "Weather": "Cloudy",
+        "TimeOfDay": "Afternoon",
+        "Temperature": "Mild",
+        "ActivityLevel": "Medium",
+        "OutdoorPreference": "Yes",
+        "Mood": "Happy"
+      },
+      "output": "Park"
+    },
+    {
+      "input": {
+        "Weather": "Sunny",
+        "TimeOfDay": "Evening",
+        "Temperature": "Mild",
+        "ActivityLevel": "High",
+        "OutdoorPreference": "Yes",
+        "Mood": "Neutral"
+      },
+      "output": "Gym"
+    },
+    {
+      "input": {
+        "Weather": "Cloudy",
+        "TimeOfDay": "Morning",
+        "Temperature": "Cold",
+        "ActivityLevel": "Low",
+        "OutdoorPreference": "No",
+        "Mood": "Tired"
+      },
+      "output": "Relax"
+    },
+    {
+      "input": {
+        "Weather": "Rainy",
+        "TimeOfDay": "Evening",
+        "Temperature": "Cold",
+        "ActivityLevel": "Low",
+        "OutdoorPreference": "No",
+        "Mood": "Tired"
+      },
+      "output": "Cafe"
+    },
+    {
+      "input": {
+        "Weather": "Sunny",
+        "TimeOfDay": "Morning",
+        "Temperature": "Hot",
+        "ActivityLevel": "Medium",
+        "OutdoorPreference": "Yes",
+        "Mood": "Happy"
+      },
+      "output": "Park"
+    },
+    {
+      "input": {
+        "Weather": "Rainy",
+        "TimeOfDay": "Afternoon",
+        "Temperature": "Cold",
+        "ActivityLevel": "Medium",
+        "OutdoorPreference": "No",
+        "Mood": "Neutral"
+      },
+      "output": "Cafe"
+    }
+  ],
+  "query": {
+    "Weather": "Sunny",
+    "TimeOfDay": "Evening",
+    "Temperature": "Mild",
+    "ActivityLevel": "High",
+    "OutdoorPreference": "Yes",
+    "Mood": "Happy"
+  }
+}
