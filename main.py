@@ -1,8 +1,12 @@
-from tree import Tree, learn_decision_tree
+from tree import Tree
 from data import load_json
 
 
 categories, training_data, query = load_json("data.json")
-tree = Tree(learn_decision_tree(training_data, categories))
-tree.print_tree(tree.root, 0)
-print(tree.decide(query))
+tree = Tree(Tree.build(training_data, categories))
+
+print("Built the following DecisionTree:\n")
+tree.print_tree()
+
+print(f"\nPredicted output for query: {query}")
+print(f" -> {tree.decide(query)}")
