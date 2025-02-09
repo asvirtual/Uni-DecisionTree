@@ -1,7 +1,7 @@
 class Category:
-    def __init__(self, name, values=[True, False]):
+    def __init__(self, name, values=None):
         self.__name = name
-        self.__values = values
+        self.__values = values if values is not None else []
 
 
     def get_name(self):

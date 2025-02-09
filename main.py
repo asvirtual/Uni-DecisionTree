@@ -10,3 +10,4 @@ tree.print_tree()
 
 print(f"\nPredicted output for query: {query}")
 print(f" -> {tree.decide(query)}")
+

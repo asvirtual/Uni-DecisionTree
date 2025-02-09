@@ -1,5 +1,4 @@
 from node import Node
-from data import Data
 import numpy as np
 
 
